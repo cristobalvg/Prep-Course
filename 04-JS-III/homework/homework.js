@@ -177,9 +177,11 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  var string = n + "";
+  var string = "" + n;
   if(string[0] === "9") return true;
+  console.log(string)
   return false;
+
 }
 
 function todosIguales(arreglo) {
@@ -255,7 +257,6 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
-  console.log(numero);
   var newarray = [];
   var suma = numero;
   for(var i = 0; i < 10; i++){
@@ -263,16 +264,11 @@ function continueStatement(numero) {
     else{
       suma = suma + 2;
       newarray.push(suma)
-      console.log(newarray);
     }
   }
   return newarray;
 }
 
-
-var x = 587;
-var y = ["cristobal", 1998, "24 de enero", "Holla"];
-console.log(y)
 
 
 // No modificar nada debajo de esta línea
