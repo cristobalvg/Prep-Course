@@ -5,7 +5,7 @@ function devolverPrimerElemento(array) {
   // Tu código:
   var devolverarray = array;
   return devolverarray[0];
-  //podria escribir solo return sin variables, pero como buena practica se recomienda asiganar a variables.
+  //podria escribir solo return sin variables, pero como buena practica se recomienda asignar a variables.
   /*Ejemplo:
   return array[0];*/
 
@@ -144,6 +144,7 @@ function multiplicarArgumentos() {
     }
   }
   return multiplicador;
+  //Nunca pude entender, para que sirve la keyword arguments.
 }
 
 
